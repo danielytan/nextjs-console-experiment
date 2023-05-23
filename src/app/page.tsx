@@ -15,8 +15,7 @@ const ConsolePage = () => {
   const handleSubmit = (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();
 
-    // Process the command and update the output state
-    // You can implement your own logic here
+    // TODO: Process the command and update the output state
 
     setOutput(prevOutput => prevOutput + '> ' + command + '\n');
 
