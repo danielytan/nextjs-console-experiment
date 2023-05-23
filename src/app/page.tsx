@@ -45,9 +45,6 @@ const ConsolePage = () => {
         />
         <button type="submit">Submit</button>
       </form>
-      <Link href="/" passHref>
-        Go to Home
-      </Link>
     </div>
   );
 };
