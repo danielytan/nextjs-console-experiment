@@ -16,6 +16,21 @@ body {
   padding: 20px;
 }
 
+.console-window {
+  height: 300px;
+  overflow-y: auto;
+  background-color: #000;
+  color: #fff;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.console-window pre {
+  margin: 0;
+  color: #fff;
+  background-color: transparent;
+}
+
 h1 {
   font-size: 24px;
   font-weight: bold;
